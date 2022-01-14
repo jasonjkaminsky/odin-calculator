@@ -1,1 +1,1 @@
-Calculator project for odid curriculum using Javascript, HTML, and CSS.
+Calculator project for The Odin Project curriculum using Javascript, HTML, and CSS.
