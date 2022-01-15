@@ -21,26 +21,36 @@ body {
 }
 
 h1 {
-    font-size: 65px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    font-size: 70px;
+    margin-top: 12px;
+    margin-bottom: 6px;
     font-family: "Anton", sans-serif;
     font-weight: bold;
     letter-spacing: 5px;
     color: #e9c757;
 }
 
-.display {
+.displayPanel {
     width: 462px;
-    height: 98px;
-    background-color: rgb(241, 248, 225);
+    height: 94px;
+    background-color: rgb(241, 248, 235);
     border-radius: 12px;
-    border: 4px solid rgb(20, 20, 20);
+    border-left: 4px solid rgb(20, 20, 20);
+}
+
+.displayValue {
+    font-size: 56px;
+    font-family: "Roboto Mono", monospace;
+    margin-right: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: right;
+    text-align: center;
 }
 
 .btnsContainer {
     width: 470px;
-    height: 305px;
+    height: 310px;
     margin-top: 6px;
     display: flex;
     justify-content: center;
@@ -54,13 +64,13 @@ h1 {
     display: flex;
     flex-direction: column;
     width: 118px;
-    height: 306px;
+    height: 310px;
 }
 
 button {
     margin: 4px;
-    width: 112px;
-    height: 130px;
+    width: 109px;
+    height: 70px;
     border-radius: 12px;
     display: flex;
     justify-content: center;
@@ -69,6 +79,11 @@ button {
     color: white;
     font-size: 34px;
     border: 1px solid white;
+    transition: transform 0.1s;
+}
+
+button:hover {
+    transform: scale(1.04);
 }
 
 .AC {
@@ -76,30 +91,35 @@ button {
     font-weight: 550;
 }
 
-.add,
-.divide {
+#add,
+#divide {
     font-size: 46px;
     background-color: #63d3b7;
 }
 
-.subtract {
+#subtract {
     font-size: 56px;
     background-color: #63d3b7;
 }
 
-.multiply {
+#multiply {
     font-size: 35px;
     background-color: #63d3b7;
 }
 
-.equalButton {
-    margin-top: 5px;
+.equalsButton {
+    margin-top: 4px;
     width: 470px;
-    height: 68px;
+    height: 64px;
     display: flex;
     justify-content: center;
     background-color: rgb(241, 137, 125);
     font-size: 60px;
+    transition: transform 0.1s;
+}
+
+.equalsButton:hover {
+    transform: scale(1.02);
 }
 
 .AC {
