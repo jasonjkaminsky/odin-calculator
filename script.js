@@ -18,7 +18,7 @@ const subtractBtn = document.querySelector("#subtract");
 const multiplyBtn = document.querySelector("#multiply");
 const divideBtn = document.querySelector("#divide");
 
-displayValue.textContent = "0123456789x=+ ";
+//displayValue.textContent = 
 
 // displayValue =
 
