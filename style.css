@@ -12,11 +12,11 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(22, 23, 21);
+    background-color: rgb(30, 30, 30);
     margin: 30px auto;
     position: relative;
-    border-left: 12px solid black;
-    border-bottom: 12px solid black;
+    border-left: 14px solid black;
+    border-bottom: 10px solid black;
     border-radius: 8px;
 }
 
@@ -26,21 +26,22 @@ h1 {
     margin-bottom: 10px;
     font-family: "Anton", sans-serif;
     font-weight: bold;
-    letter-spacing: 4px;
-    color: #ddc36f;
+    letter-spacing: 5px;
+    color: #e9c757;
 }
 
 .display {
-    width: 470px;
-    height: 90px;
+    width: 462px;
+    height: 98px;
     background-color: rgb(241, 248, 225);
     border-radius: 12px;
+    border: 4px solid rgb(20, 20, 20);
 }
 
 .btnsContainer {
     width: 470px;
-    height: 325px;
-    margin-top: 8px;
+    height: 305px;
+    margin-top: 6px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,21 +54,26 @@ h1 {
     display: flex;
     flex-direction: column;
     width: 118px;
-    height: 325px;
+    height: 306px;
 }
 
 button {
     margin: 4px;
     width: 112px;
-    height: 325px;
+    height: 130px;
     border-radius: 12px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(12, 12, 11);
     color: white;
-    font-size: 32px;
+    font-size: 34px;
     border: 1px solid white;
+}
+
+.AC {
+    font-size: 30px;
+    font-weight: 550;
 }
 
 .add,
@@ -77,23 +83,23 @@ button {
 }
 
 .subtract {
-    font-size: 60px;
+    font-size: 56px;
     background-color: #63d3b7;
 }
 
 .multiply {
-    font-size: 36px;
+    font-size: 35px;
     background-color: #63d3b7;
 }
 
 .equalButton {
     margin-top: 5px;
     width: 470px;
-    height: 75px;
+    height: 68px;
     display: flex;
     justify-content: center;
     background-color: rgb(241, 137, 125);
-    font-size: 66px;
+    font-size: 60px;
 }
 
 .AC {
