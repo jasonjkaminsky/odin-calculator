@@ -30,23 +30,17 @@ h1 {
     color: #e9c757;
 }
 
-/* .displayPanel {
+.displayPanel {
     width: 462px;
     height: 94px;
     background-color: rgb(241, 248, 235);
     border-radius: 12px;
     border-left: 4px solid rgb(20, 20, 20);
-} */
-
-.displayValue {
-    width: 450px;
-    height: 88px;
-    font-size: 56px;
-    font-family: "Roboto Mono", monospace;
-    margin-right: 10px;
+    margin-right: 6px;
     display: flex;
-    justify-content: center;
-    text-align: right;
+    justify-content: right;
+    align-items: center;
+    font-size: 54px;
 }
 
 .btnsContainer {
