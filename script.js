@@ -1,39 +1,22 @@
 const displayPanel = document.querySelector(".displayPanel");
-const acBtn = document.querySelector(".AC");
-const zeroBtn = document.querySelector(".zero");
-const oneBtn = document.querySelector("#one");
-const twoBtn = document.querySelector("#two");
-const threeBtn = document.querySelector("#three");
-const fourBtn = document.querySelector("#four");
-const fiveBtn = document.querySelector("#five");
-const sixBtn = document.querySelector("#six");
-const sevenBtn = document.querySelector("#seven");
-const eightBtn = document.querySelector("#eight");
-const nineBtn = document.querySelector("#nine");
+
+const buttons = document.querySelectorAll("button");
+const operator = document.querySelectorAll(".operator");
+
 const dotBtn = document.querySelector("#dot");
 const equalsBtn = document.querySelector("#equals");
 
-const addBtn = document.querySelector("#add");
-const subtractBtn = document.querySelector("#subtract");
-const multiplyBtn = document.querySelector("#multiply");
-const divideBtn = document.querySelector("#divide");
+const acBtn = document.querySelector(".AC");
 
-// let inputArray = [0];
+let display = "";
 
-// const unshift = function (input) {
-//     inputArray.unshift(input);
-// };
+let ans;
 
-let arrayNum1 = [];
 
-fiveBtn.addEventListener("click", (e) => {
-    console.log(e.target.value);
-});
-
-twoBtn.addEventListener("click", (e) => {
-    const input = e.target.value;
-    arrayNum1.unshift(input);
-    displayPanel.textContent = arrayNum1;
+buttons.forEach((button) => {
+    button.addEventListener("click", (e) => {
+        console.log(e.target.id);
+    });
 });
 
 // ODIN: Create a new function "operate" that takes an operator and 2 numbers and then calls one of the above functions on the numbers.
