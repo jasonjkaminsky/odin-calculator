@@ -31,30 +31,36 @@ h1 {
 }
 
 .displayPanel {
-    width: 462px;
-    height: 94px;
+    width: 450px;
+}
+
+.topDisplay {
+    width: 448px;
+    height: 43px;
     background-color: rgb(241, 248, 235);
-    border-radius: 12px;
-    border-left: 4px solid rgb(20, 20, 20);
-    margin-right: 6px;
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    font-size: 54px;
+    font-size: 28px;
+    text-align: right;
+    border-radius: 6px 6px 0 0;
+}
+
+.bottomDisplay {
+    width: 448px;
+    height: 54px;
+    background-color: rgb(241, 248, 235);
+    font-size: 38px;
+    text-align: right;
+    border-radius: 0 0 6px 6px;
 }
 
 .btnsContainer {
-    width: 470px;
-    height: 310px;
-    margin-top: 6px;
+    margin-top: 10px;
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 button {
-    margin: 4px;
-    width: 109px;
+    margin: 3px;
+    margin-bottom: 6px;
+    width: 107px;
     height: 70px;
     border-radius: 12px;
     display: flex;
@@ -97,8 +103,7 @@ button:hover {
 }
 
 .equalsButton {
-    margin-top: 4px;
-    width: 460px;
+    width: 446px;
     height: 64px;
     display: flex;
     justify-content: center;
@@ -113,4 +118,6 @@ button:hover {
 
 #AC {
     background-color: #ddc36f;
+    font-size: 30px;
+    font-weight: bold;
 }
