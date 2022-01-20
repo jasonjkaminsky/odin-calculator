@@ -22,8 +22,8 @@ body {
 
 h1 {
     font-size: 70px;
-    margin-top: 12px;
-    margin-bottom: 6px;
+    margin-top: 8px;
+    margin-bottom: 2px;
     font-family: "Anton", sans-serif;
     font-weight: bold;
     letter-spacing: 5px;
@@ -32,24 +32,28 @@ h1 {
 
 .displayPanel {
     width: 450px;
+    height: 99px;
+    margin-bottom: 4px;
 }
 
 .topDisplay {
-    width: 448px;
+    width: 440px;
     height: 43px;
     background-color: rgb(241, 248, 235);
-    font-size: 28px;
+    font-size: 30px;
     text-align: right;
     border-radius: 6px 6px 0 0;
+    padding: 8px 8px 0 0;
 }
 
 .bottomDisplay {
-    width: 448px;
+    width: 440px;
     height: 54px;
     background-color: rgb(241, 248, 235);
     font-size: 38px;
     text-align: right;
     border-radius: 0 0 6px 6px;
+    padding-right: 8px;
 }
 
 .btnsContainer {
