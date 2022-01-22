@@ -68,7 +68,7 @@ function runEquals() {
     } else if (!down && !up) {
         bottomDisplay.textContent = "";
     } else {
-        bottomDisplay.textContent = "Syntax ERROR";
+        bottomDisplay.textContent = "Error";
     }
 }
 
